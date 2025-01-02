@@ -11,7 +11,7 @@ const App = () => {
   const {audioRef, track} = useContext(PlayerContext);
 
   return(
-    <div className='h-screen bg-white'>
+    <div className='h-screen bg-black'>
 
       <TopBar/>
       <div className='h-[90%] flex'>
